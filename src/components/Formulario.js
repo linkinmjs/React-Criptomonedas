@@ -27,11 +27,11 @@ const Formulario = () => {
         {codigo: 'MXN', nombre: 'Peso Mexicano'},
         {codigo: 'EUR', nombre: 'Euro'},
         {codigo: 'GBP', nombre: 'Libra Esterlina'},
-        {codigo: 'ARG', nombre: 'Peso Argentino'},
+        {codigo: 'ARG', nombre: 'Peso Argentino'}
     ]
 
     // Utilizar useMoneda
-    const[moneda,SelectMonedas] = useMoneda('Elige tu moneda','', MONEDAS);
+    const[moneda,SelectMonedas] = useMoneda('Elige tu moneda ','', MONEDAS);
 
     return ( 
         <form>
