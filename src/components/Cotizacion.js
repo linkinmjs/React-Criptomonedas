@@ -7,7 +7,7 @@ const ResultadoDiv = styled.div`
 `;
 
 const Info = styled.p`
-    font-size: 10px;
+    font-size: 18px;
 
     span{
         font-weight:bold;
